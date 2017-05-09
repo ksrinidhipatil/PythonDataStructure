@@ -4,7 +4,7 @@ class HashMap:
         #create an emplty map of size 6
         self.map = [None] * self.size
 
-    #function to get the has value for the key 
+    #function to get the hash value for the key 
     #This function returns the sum of assci values 
     #input - key && outPut hash value of the key 
     def getHash(self, key):
